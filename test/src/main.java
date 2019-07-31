@@ -21,34 +21,54 @@ public class main {
         System.out.println();
         System.out.println();
 
-        Stack tmp=new Stack(4);
-        System.out.println(tmp.empty());
-        System.out.println();
 
-        System.out.println("push");
+        //  stack integer
+        Stack tmp=new Stack(new Integer[4]);
+        System.out.println("Is empty? "+tmp.empty());
+
+        System.out.println("push : 1");
         tmp.push(1);
-        System.out.println(tmp.empty());
-        System.out.println();
+        System.out.println("Is empty? "+tmp.empty());
 
         System.out.println("peek");
-        System.out.println(tmp.peek());
-        System.out.println();
+        System.out.println("peek value : "+tmp.peek());
 
         System.out.println("pop");
-        System.out.println(tmp.pop());
-        System.out.println(tmp.empty());
-        System.out.println();
+        System.out.println("pop value : "+tmp.pop());
 
-        System.out.println("search");
+        System.out.println("search (push 2,3,4,1 and find 4)");
         tmp.push(2);
         tmp.push(3);
         tmp.push(4);
         tmp.push(1);
-        System.out.println(tmp.search(4));
+        System.out.println("position is "+tmp.search(4)+" (top:1, none:-1)");
 
         tmp.print();
+        System.out.println();
 
 
+        //stack string
+        Stack tmp_string=new Stack(new String[4]);
+        System.out.println("Is empty? "+tmp_string.empty());
+
+        System.out.println("push :a");
+        tmp_string.push("a");
+
+        System.out.println("peek");
+        System.out.println("peek value : "+tmp_string.peek());
+
+        System.out.println("pop");
+        System.out.println("pop value : "+tmp_string.pop());
+
+        System.out.println("search (push b,c,d,a and find c)");
+        tmp_string.push("b");
+        tmp_string.push("c");
+        tmp_string.push("d");
+        tmp_string.push("a");
+        System.out.println("position is "+tmp_string.search("c")+" (top:1, none:-1)");
+
+        tmp_string.print();
+        System.out.println();
 
     }
 }
