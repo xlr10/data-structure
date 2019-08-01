@@ -1,0 +1,50 @@
+
+
+1. Array List의 개념
+   - ArrayList는 내부 저장소가 배열처럼 연속적인 메모리 형태이나 저장소의 크기를 변화할 수 있다는 특징이 있다.
+     이러한 점은 Vector 클래스와 차이가 없다.
+   - 실제 Vector 클래스와 ArrayList 클래스는 거의 모든 부분에서 비슷하다.
+
+2. ArrayList와  Vector 차이점
+      - ArrayList는 Thread간에 동기화를 지원하지 않기 때문에 다수의 Thread가 동시에 ArrayList에 요소를 삽입하거나 삭제할 때 총돌의 소지가 있다.
+      - Vector는 동기화를 지원한다.
+      - ArrayList의 속도가 Vector보다 다소 빠르다고 하지만 큰 의미를 갖는 정도는 아니다.
+
+3. java 라이브러리 ArrayList 관련 메서드
+
+ 	add(E e)
+        Appends the specified element to the end of this list.
+ 	add(int index, E element)
+        Inserts the specified element at the specified position in this list.
+ 	addAll(Collection<? extends E> c)
+        Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's Iterator.
+    addAll(int index, Collection<? extends E> c)
+        Inserts all of the elements in the specified collection into this list, starting at the specified position.
+ 	clear()
+        Removes all of the elements from this list.
+    contains(Object o)
+        Returns true if this list contains the specified element.
+ 	get(int index)
+        Returns the element at the specified position in this list.
+ 	indexOf(Object o)
+        Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
+ 	isEmpty()
+        Returns true if this list contains no elements.
+ 	lastIndexOf(Object o)
+        Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
+    remove(int index)
+        Removes the element at the specified position in this list.
+ 	removeRange(int fromIndex, int toIndex)
+        Removes from this list all of the elements whose index is between fromIndex, inclusive, and toIndex, exclusive.
+ 	set(int index, E element)
+        Replaces the element at the specified position in this list with the specified element.
+ 	size()
+        Returns the number of elements in this list.
+    subList(int fromIndex, int toIndex)
+        Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
+ 	toArray()
+        Returns an array containing all of the elements in this list in proper sequence (from first to last element).
+
+4. References
+https://farmerkyh.tistory.com/843
+https://docs.oracle.com/javase/7/docs/api/index.html

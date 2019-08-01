@@ -1,3 +1,4 @@
+import arrList.arrList;
 import stack.Stack;
 import test.test;
 import test2.test2;
@@ -23,7 +24,7 @@ public class main {
 
 
         //  stack integer
-        Stack tmp=new Stack(new Integer[4]);
+        Stack<Integer>tmp=new Stack(new Integer[4]);
         System.out.println("Is empty? "+tmp.empty());
 
         System.out.println("push : 1");
@@ -48,7 +49,8 @@ public class main {
 
 
         //stack string
-        Stack tmp_string=new Stack(new String[4]);
+        Stack<String> tmp_string=new Stack(new String[4]);
+
         System.out.println("Is empty? "+tmp_string.empty());
 
         System.out.println("push :a");
@@ -70,5 +72,57 @@ public class main {
         tmp_string.print();
         System.out.println();
 
+
+
+//        int a[]={1,2,3,4,5,6};
+//        int b[]=new int[2];
+//        int c[]=new int[3];
+//
+//        b= Arrays.copyOfRange(a,0,2);
+//        printA(b);
+//
+//        c=Arrays.copyOfRange(a,2,6);
+//        printA(c);
+//
+//        System.out.println(a.length);
+
+        arrList<Integer> arr_int=new arrList<Integer>();
+        arr_int.add(1);
+        arr_int.add(2);
+        arr_int.add(3);
+        arr_int.add(4);
+        arr_int.add(5);
+        arr_int.print();
+        arr_int.add(6);
+        arr_int.print();
+        arr_int.add(4,45);
+        arr_int.print();
+
+        //arr_int.clear();
+        //arr_int.print();
+
+        System.out.println("Is 3 in here? "+arr_int.contains(3));
+
+        System.out.println("get: "+arr_int.get(4));
+        arr_int.print();
+
+        System.out.println("Position 3 : "+arr_int.indexOf(3));
+        System.out.println("Is empty? "+arr_int.isEmpty());
+
+        arr_int.removeRange(1,3);
+        arr_int.print();
+
+
+
     }
+
+    public static void printA(int i[]){
+        for(int e :i){
+            System.out.print(e+" ");
+        }
+        System.out.println();
+    }
+
+
+
 }

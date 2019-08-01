@@ -18,19 +18,16 @@
 
 4. java 라이브러리 스택(Stack) 관련 메서드
 
-    push(E item)
-        해당 item을 Stack의 top에 삽입
-        Vector의 addElement(item)과 동일
-    pop()
-        Stack의 top에 있는 item을 삭제하고 해당 item을 반환
-    peek()
-        Stack의 top에 있는 item을 삭제하지않고 해당 item을 반환
-    empty()
-        Stack이 비어있으면 true를 반환 그렇지않으면 false를 반환
-    search(Object o)
-        해당 Object의 위치를 반환
-        Stack의 top 위치는 1, 해당 Object가 없으면 -1을 반환
-
+    boolean 	empty()
+        Tests if this stack is empty.
+    E 	peek()
+           Looks at the object at the top of this stack without removing it from the stack.
+    E 	pop()
+        Removes the object at the top of this stack and returns that object as the value of this function.
+    E 	push(E item)
+        Pushes an item onto the top of this stack.
+    int 	search(Object o)
+        Returns the 1-based position where an object is on this stack.
 
 5. References
 https://gmlwjd9405.github.io/2018/08/03/data-structure-stack.html

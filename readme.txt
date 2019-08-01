@@ -1,9 +1,9 @@
 사용언어 : java
 구현할 자료구조
 1. Stack
-2. Queue
-3. Linear List
-4. Linked List
+2. Linear List // arrList
+3. Linked List
+4. Queue
 5. Deque
 6. Tree
 7. Graph
