@@ -144,9 +144,9 @@ public class arrList<E> {
 
             //move front & rear
             arr_front = Arrays.copyOfRange(arr, 0, fromIndex);
-            print(arr_front);     //Just Dedugging
+            //print(arr_front);     //Just Dedugging
             arr_rear = Arrays.copyOfRange(arr, toIndex, nowPos);
-            print(arr_rear);
+            //print(arr_rear);
 
             //init array
             nowPos=arr_front.length+arr_rear.length;
