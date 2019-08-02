@@ -25,7 +25,7 @@ public class arrList<E> {
         if (nowPos == arr.length) {
             Object tmp[] = new Object[nowPos];
             System.arraycopy(arr, 0, tmp, 0, nowPos);
-            arr = new Object[10];
+            arr = new Object[arr.length+10];
             System.arraycopy(tmp, 0, arr, 0, nowPos);
             arr[nowPos++] = (Object) e;
         } else {
@@ -82,8 +82,8 @@ public class arrList<E> {
             return -1;
 
         } else if (index == nowPos) {
-            Object tmp=arr[nowPos];
-            arr[nowPos--]=null;
+            Object tmp=arr[--nowPos];
+            arr[nowPos]=null;
             return tmp;
 
         } else {   //index<nowPos
@@ -150,7 +150,7 @@ public class arrList<E> {
 
             //init array
             nowPos=arr_front.length+arr_rear.length;
-            System.out.println(nowPos);
+            //System.out.println(nowPos);
             arr = new Object[nowPos];
             System.arraycopy(arr_front, 0, arr, 0, fromIndex);
             System.arraycopy(arr_rear, 0, arr, fromIndex, arr_rear.length);
@@ -187,7 +187,7 @@ public class arrList<E> {
 
     //  Returns an array containing all of the elements in this list in proper sequence (from first to last element).
     //public E toArray() {
-    public Object toArray() {
+    public Object[] toArray() {
         return arr;
     }
 
