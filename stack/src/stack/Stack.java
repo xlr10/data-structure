@@ -46,16 +46,30 @@ public class Stack<T> {
         }
     }
 
-    public void print() {
+    @Override
+    public String toString() {
         Object[] tmp = stack_data.toArray();
-        System.out.println("___");
+        String stmp = "___\n";
+
         for (Object e : tmp){
             if(e == null)   continue;
-            System.out.println("|"+e+"|");
+            stmp=stmp + "|" + e.toString() + "|\n";
         }
-        System.out.println("---");
+        stmp +="---\n";
 
+        return stmp;
     }
+
+    //    public void print() {
+//        Object[] tmp = stack_data.toArray();
+//        System.out.println("___");
+//        for (Object e : tmp){
+//            if(e == null)   continue;
+//            System.out.println("|"+e+"|");
+//        }
+//        System.out.println("---");
+//
+//    }
     public int size(){
         return stack_data.size();
     }

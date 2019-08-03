@@ -25,7 +25,7 @@ public class arrList<E> {
         if (nowPos == arr.length) {
             Object tmp[] = new Object[nowPos];
             System.arraycopy(arr, 0, tmp, 0, nowPos);
-            arr = new Object[arr.length+10];
+            arr = new Object[arr.length + 10];
             System.arraycopy(tmp, 0, arr, 0, nowPos);
             arr[nowPos++] = (Object) e;
         } else {
@@ -53,8 +53,8 @@ public class arrList<E> {
             //init array
             arr = new Object[++nowPos];
             System.arraycopy(arr_front, 0, arr, 0, index);
-            arr[index]=element;
-            System.arraycopy(arr_rear, 0, arr, index+1, arr_rear.length);
+            arr[index] = element;
+            System.arraycopy(arr_rear, 0, arr, index + 1, arr_rear.length);
 
         }
     }
@@ -63,38 +63,38 @@ public class arrList<E> {
     public void clear() {
         arr = null;
         arr = new Object[5];
-        nowPos=0;
+        nowPos = 0;
 
     }
 
     //  Returns true if this list contains the specified element.
     public boolean contains(Object o) {
-        for(Object e:arr){
-            if(e==o)    return true;
+        for (Object e : arr) {
+            if (e == o) return true;
         }
         return false;
     }
 
     //  Returns the element at the specified position in this list.
     public Object get(int index) {
-        if (index > nowPos || index<0) {
+        if (index > nowPos || index < 0) {
             System.out.println("Out of Index\nNow Array's Size is " + nowPos + 1);
             return -1;
 
         } else if (index == nowPos) {
-            Object tmp=arr[--nowPos];
-            arr[nowPos]=null;
+            Object tmp = arr[--nowPos];
+            arr[nowPos] = null;
             return tmp;
 
         } else {   //index<nowPos
-            Object tmp=arr[index];
+            Object tmp = arr[index];
             Object arr_front[] = new Object[index];
             Object arr_rear[] = new Object[nowPos - index];
 
             //move front & rear
             arr_front = Arrays.copyOfRange(arr, 0, index);
             //print(arr_front);     //Just Dedugging
-            arr_rear = Arrays.copyOfRange(arr, index+1, nowPos);
+            arr_rear = Arrays.copyOfRange(arr, index + 1, nowPos);
             //print(arr_rear);
 
             //init array
@@ -109,16 +109,16 @@ public class arrList<E> {
 
     //  Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
     public int indexOf(Object o) {
-        for(int a=0; a<nowPos;a++){
-            if(arr[a]==o)    return a;
+        for (int a = 0; a < nowPos; a++) {
+            if (arr[a] == o) return a;
         }
         return -1;
     }
 
     //  Returns true if this list contains no elements.
     public boolean isEmpty() {
-        for(Object e:arr){
-            if(e!=null) return false;
+        for (Object e : arr) {
+            if (e != null) return false;
         }
         return true;
     }
@@ -131,15 +131,17 @@ public class arrList<E> {
     //  Removes from this list all of the elements whose index is between fromIndex, inclusive, and toIndex, exclusive.
     public void removeRange(int fromIndex, int toIndex) {
 
-        if(fromIndex>=toIndex || toIndex>nowPos || fromIndex<0) {
+        if (fromIndex >= toIndex || toIndex > nowPos || fromIndex < 0) {
             System.out.println("Range is Invaild");
 
-        }else if(toIndex==nowPos) {
-            for(int a=fromIndex;a<nowPos;a++){  arr[a]=null;}
-            nowPos=fromIndex;
+        } else if (toIndex == nowPos) {
+            for (int a = fromIndex; a < nowPos; a++) {
+                arr[a] = null;
+            }
+            nowPos = fromIndex;
 
-        }else { // toIndex<nowPos
-            Object arr_front[]= new Object[fromIndex];
+        } else { // toIndex<nowPos
+            Object arr_front[] = new Object[fromIndex];
             Object arr_rear[] = new Object[nowPos - toIndex];
 
             //move front & rear
@@ -149,7 +151,7 @@ public class arrList<E> {
             //print(arr_rear);
 
             //init array
-            nowPos=arr_front.length+arr_rear.length;
+            nowPos = arr_front.length + arr_rear.length;
             //System.out.println(nowPos);
             arr = new Object[nowPos];
             System.arraycopy(arr_front, 0, arr, 0, fromIndex);
@@ -159,10 +161,10 @@ public class arrList<E> {
 
     //  Replaces the element at the specified position in this list with the specified element.
     public void set(int index, E element) {
-        if(index>nowPos || index<0){
+        if (index > nowPos || index < 0) {
             System.out.println("Range is Invaild");
-        }else {
-            arr[index]=element;
+        } else {
+            arr[index] = element;
         }
     }
 
@@ -176,11 +178,11 @@ public class arrList<E> {
     public Object subList(int fromIndex, int toIndex) {
         Object tmp[];
 
-        if(fromIndex>=toIndex || toIndex>nowPos || fromIndex<0) {
+        if (fromIndex >= toIndex || toIndex > nowPos || fromIndex < 0) {
             System.out.println("Range is Invaild");
             return -1;
 
-        }else {
+        } else {
             return Arrays.copyOfRange(arr, 0, fromIndex);
         }
     }
@@ -191,15 +193,27 @@ public class arrList<E> {
         return arr;
     }
 
-    public void print() {
-        System.out.print("| ");
-        for(Object e:arr){
-            if(e==null) break;
-            else System.out.print(e+" ");
+    @Override
+    public String toString() {
+        String tmp = "| ";
+
+        for (Object e : arr) {
+            if (e == null) break;
+            else tmp = tmp + e.toString() + " ";
         }
-        //for (int a = 0; a < nowPos; a++) {  System.out.print(arr[a] + " ");}
-        System.out.println("|");
+        tmp += "|";
+
+        return tmp;
     }
+    //    public void print() {
+//        System.out.print("| ");
+//        for(Object e:arr){
+//            if(e==null) break;
+//            else System.out.print(e+" ");
+//        }
+//        //for (int a = 0; a < nowPos; a++) {  System.out.print(arr[a] + " ");}
+//        System.out.println("|");
+//    }
 
     private void print(Object e[]) {
         System.out.print(">>>| ");

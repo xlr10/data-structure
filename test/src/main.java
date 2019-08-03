@@ -1,5 +1,8 @@
 import arrList.arrList;
+import linkedList.linkedList;
 import stack.Stack;
+
+import java.util.Iterator;
 
 /*
 모듈간 import 문제 해결 shorturl.at/hjzQU
@@ -10,14 +13,22 @@ import stack.Stack;
 메이븐 사용하기?
  */
 
-public class main {
+public class main{
 
     public static void main(String[] args) {
         System.out.println("Test Class..");
 
         testStack();
+        System.out.println();
 
-        //testArrayList();
+        testArrayList();
+        System.out.println();
+
+        testLinkedList();
+        System.out.println();
+
+
+
 
     }
     public static void testStack(){
@@ -48,7 +59,7 @@ public class main {
         tmp.push(1);
         System.out.println("position is "+tmp.search(4)+" (top:1, none:-1)");
 
-        tmp.print();
+        System.out.println(tmp);
         System.out.println();
 
 
@@ -74,7 +85,7 @@ public class main {
         tmp_string.push("a");
         System.out.println("position is "+tmp_string.search("c")+" (top:1, none:-1)");
 
-        tmp_string.print();
+        System.out.println(tmp_string);
         System.out.println();
     }
 
@@ -87,23 +98,23 @@ public class main {
         arr_int.add(3);
         arr_int.add(4);
         arr_int.add(5);
-        arr_int.print();
+        System.out.println(arr_int);
         arr_int.add(6);
         //for(int a=0 ; a<100;a++){   arr_int.add(6+a);}
-        arr_int.print();
+        System.out.println(arr_int);
         arr_int.add(4,45);
-        arr_int.print();
+        System.out.println(arr_int);
 
         //arr_int.clear();
         //arr_int.print();
 
         System.out.println("Is 3 in here? "+arr_int.contains(3));
         System.out.println("get: "+arr_int.get(0));
-        arr_int.print();
+        System.out.println(arr_int);
         System.out.println("Position 3 : "+arr_int.indexOf(3));
         System.out.println("Is empty? "+arr_int.isEmpty());
         arr_int.removeRange(0,6);
-        arr_int.print();
+        System.out.println(arr_int);
         System.out.println(arr_int.isEmpty());
         System.out.println();
         System.out.println();
@@ -116,7 +127,7 @@ public class main {
         arr_string.add("bsd");
         arr_string.add("csd");
         arr_string.add("dsd");
-        arr_string.print();
+        System.out.println(arr_string);
 //        arr_string.add(3,"aaa");
 //        arr_string.print();
 //
@@ -145,14 +156,87 @@ public class main {
 
     }
 
-    public static void printA(int i[]){
-        for(int e :i){
-            System.out.print(e+" ");
+    public static void testLinkedList(){
+
+        linkedList<Integer> tmp=new linkedList<Integer>();
+        tmp.add(1);
+        tmp.add(2);
+        tmp.add(3);
+        tmp.add(4);
+        tmp.add(5);
+        System.out.println(tmp);
+
+        tmp.add(2,2);
+        System.out.println(tmp);
+
+        linkedList copytest;
+        try {
+            copytest=(linkedList)tmp.clone();
+            System.out.println("deep copy "+copytest.toString());
+            copytest.add(23);
+            System.out.println("deep copy "+copytest.toString());
+            System.out.println("tmp: "+tmp.toString());
+        }catch (Exception e){
+            System.out.println("Clone Excoption");
+        }
+
+        System.out.println("get index '6': "+tmp.get(6));
+
+        System.out.println(tmp);
+        System.out.println("Iterator Loop");
+        Iterator<Integer> iter=tmp.iterator();
+        while (iter.hasNext()){
+            System.out.print(iter.next()+" ");
         }
         System.out.println();
+
+        System.out.println("Is '3' here? "+tmp.contains(3));
+        System.out.println("Is '9' here? "+tmp.contains(9));
+
+        System.out.println("Iterator revers order");
+        Iterator<Integer> reiter=tmp.descendingIterator();
+        while (reiter.hasNext()){
+            System.out.print(reiter.next()+" ");
+        }
+        System.out.println();
+        System.out.println();
+
+        System.out.println("Set starting iterator point");
+        Iterator<Integer> test=tmp.listIterator(2);
+        while (test.hasNext()){
+            System.out.print(test.next()+" ");
+        }
+        System.out.println();
+
+        System.out.println("remove test to index");
+        System.out.println(tmp);
+        System.out.println("remove index:2 and value:"+tmp.remove(2));
+        System.out.println(tmp);
+
+        System.out.println("set(replace) test : 32");
+        System.out.println("return : "+tmp.set(2,32));
+        System.out.println(tmp);
+
+        System.out.println();
+        System.out.println("toArray test(Object)");
+        Object[] ob_tmp=tmp.toArray();
+        for(Object e : ob_tmp){
+            System.out.print(e.toString()+" ");
+        }
+        System.out.println();
+
+        //https://stackoverflow.com/questions/15422161/java-list-t-t-toarrayt-a-implementation      ???
+        System.out.println();
+        System.out.println("toArray test(Generic)");
+        Integer[] n=new Integer[10];
+        n=tmp.toArray(n);
+        for(Integer e:n){
+            System.out.print(e+" ");
+        }
     }
 
 
 
 }
+
 
