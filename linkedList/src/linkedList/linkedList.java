@@ -106,11 +106,15 @@ public class linkedList<E> implements Cloneable{
 
     //Retrieves, but does not remove, the head (first element) of this list.
     public E element() {
+        if(head==null) return null;
+
         return head.get();
     }
 
     //   Returns the element at the specified position in this list.
     public E get(int index) {
+        if(head==null) return null;
+
         Node <E> prev_node=head;
         for(int a=1; a<index; a++){ prev_node = prev_node.next;}
         return prev_node.get();
@@ -143,6 +147,8 @@ public class linkedList<E> implements Cloneable{
 
     //  Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
     public int indexOf(Object o) {
+        if(head==null) return -1;
+
         Iterator<E> iter=this.iterator();
         int a=0;
         while (iter.hasNext()){
@@ -154,6 +160,8 @@ public class linkedList<E> implements Cloneable{
 
     //Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
     public int lastIndexOf(Object o) {
+        if(head==null) return -1;
+
         Iterator<E> reiter=this.descendingIterator();
         int a=size;
         while (reiter.hasNext()){
@@ -172,8 +180,11 @@ public class linkedList<E> implements Cloneable{
 
     //  Retrieves and removes the head (first element) of this list.
     public E poll() {
+        if(head==null) return null;
+
         E tmp=getFirst();
         head=head.next;
+        size--;
         return tmp;
     }
 
@@ -184,6 +195,8 @@ public class linkedList<E> implements Cloneable{
 
     //  Retrieves and removes the last element of this list, or returns null if this list is empty.
     public E pollLast() {
+        if(head==null) return null;
+
         E tmp=getLast();
         Node tmpN=head;
         for(int a=1; a<size-1;a++){
@@ -206,11 +219,17 @@ public class linkedList<E> implements Cloneable{
 
     //  Retrieves and removes the head (first element) of this list.
     public E remove() {
-        return poll();
+        if(head==null) return null;
+
+        E tmp=getFirst();
+        head=null;
+        return tmp;
     }
 
     //  Removes the element at the specified position in this list.
     public E remove(int index) {
+        if(head==null) return null;
+
         Node<E> prevNode=head;
         Node<E> nextNode;
         E tmp=null;
@@ -234,6 +253,7 @@ public class linkedList<E> implements Cloneable{
 
     //  Removes the first occurrence of the specified element from this list, if it is present.
     public boolean remove(Object o) {
+        if(head==null) return false;
         if(remove(indexOf(o))!=null)    return true;
         else                            return false;
     }
@@ -245,6 +265,7 @@ public class linkedList<E> implements Cloneable{
 
     //  Removes the first occurrence of the specified element in this list (when traversing the list from head to tail).
     public boolean removeFirstOccurrence(Object o) {
+        if(head==null) return false;
         if(remove(indexOf(o))!=null)    return true;
         else                            return false;
     }
@@ -256,12 +277,14 @@ public class linkedList<E> implements Cloneable{
 
     //  Removes the last occurrence of the specified element in this list (when traversing the list from head to tail).
     public boolean removeLastOccurrence(Object o) {
+        if(head==null) return false;
         if(remove(lastIndexOf(o))!=null)    return true;
         else                                return false;
     }
 
     //  Replaces the element at the specified position in this list with the specified element.
     public E set(int index, E element) {
+        if(head==null) return null;
         Node <E> prev_node=head;
         E tmp=null;
         for(int a=1; a<index; a++){ prev_node = prev_node.next;}
@@ -277,6 +300,8 @@ public class linkedList<E> implements Cloneable{
 
     //  Returns an array containing all of the elements in this list in proper sequence (from first to last element).
     public Object[] toArray() {
+        if(head==null) return null;
+
         Object[] tmp=new Object[size];
         Iterator<E>iter = this.iterator();
         int a=0;
@@ -296,6 +321,8 @@ public class linkedList<E> implements Cloneable{
     @Override
     public String toString() {
         Node tmp =head;
+        if(tmp == null){    return "This list is empty ";}
+
         String str="";
         for(int a=0; a<size;a++){
             if(a+1 !=size) str+=tmp+" -> ";

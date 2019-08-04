@@ -1,5 +1,6 @@
 import arrList.arrList;
 import linkedList.linkedList;
+import queue.queue;
 import stack.Stack;
 
 import java.util.Iterator;
@@ -26,6 +27,12 @@ public class main{
 
         testLinkedList();
         System.out.println();
+
+        testQueue();
+        System.out.println();
+
+
+
 
 
 
@@ -233,9 +240,42 @@ public class main{
         for(Integer e:n){
             System.out.print(e+" ");
         }
+        System.out.println();
+
+        System.out.println("remove");
+        tmp.remove();
+        System.out.println(tmp);
+
+        linkedList<Integer>asd=new linkedList<Integer>();
+        System.out.println(asd);
     }
 
+    public static void testQueue(){
+        queue<Integer> tmp=new queue<Integer>();
+        tmp.offer(1);
+        tmp.offer(2);
+        tmp.offer(3);
+        tmp.offer(4);
+        tmp.offer(5);
+        System.out.println(tmp);
 
+        System.out.println("queue.element() test: "+tmp.element());
+        System.out.println("queue.peek(): "+tmp.peek());
+        System.out.println("queue.poll(): "+tmp.poll());
+        System.out.println(tmp);
+        System.out.println("queue.poll(): "+tmp.poll());
+        System.out.println(tmp);
+        System.out.println("queue.poll(): "+tmp.poll());
+        System.out.println(tmp);
+        System.out.println("queue.poll(): "+tmp.poll());
+        System.out.println(tmp);
+        System.out.println("queue.poll(): "+tmp.poll());
+        System.out.println(tmp);
+
+        System.out.println("queue.remove()");
+        tmp.remove();
+        System.out.println(tmp);
+    }
 
 }
 

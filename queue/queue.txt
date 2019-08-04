@@ -1,0 +1,43 @@
+
+
+1. 큐(Queue)의 개념
+    - 컴퓨터의 기본적인 자료 구조의 한가지로, 먼저 집어 넣은 데이터가 먼저 나오는 FIFO(First In First Out)구조로 저장하는 형식
+    - 큐(Queue)는 연결리스트 로 구현할 수 있다. 연결리스트의 반대 방향에서 항목을 추가하거나 제거하도록 구현한다.
+
+
+2. 큐(Queue)의 연산
+   큐(Queue)는 FIFO(First-In-First-Out) 를 따른다.
+
+       add(item): item을 리스트의 끝부분에 추가한다.
+       remove(): 리스트의 첫 번째 항목을 제거한다.
+       peek(): 큐에서 가장 위에 있는 항목을 반환한다.
+       isEmpty(): 큐가 비어 있을 때에 true를 반환한다.
+
+
+3. java 라이브러리 Linked List 관련 메서드
+
+    boolean 	add(E e)    Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.
+    E        	element()   Retrieves, but does not remove, the head of this queue.
+    boolean 	offer(E e)  Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions.
+    E        	peek()      Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+    E        	poll()      Retrieves and removes the head of this queue, or returns null if this queue is empty.
+    E        	remove()    Retrieves and removes the head of this queue.
+
+4. 큐(Queue)의 사용 사례
+
+   데이터가 입력된 시간 순서대로 처리해야 할 필요가 있는 상황에 이용한다.
+
+       - 너비 우선 탐색(BFS, Breadth-First Search) 구현
+           처리해야 할 노드의 리스트를 저장하는 용도로 큐(Queue)를 사용한다.
+           노드를 하나 처리할 때마다 해당 노드와 인접한 노드들을 큐에 다시 저장한다.
+           노드를 접근한 순서대로 처리할 수 있다.
+       - 캐시(Cache) 구현
+       - 우선순위가 같은 작업 예약 (인쇄 대기열)
+       - 프린터의 출력 처리
+       - 윈도 시스템의 메시지 처리기
+       - 프로세스 관리
+
+
+5. References
+https://gmlwjd9405.github.io/2018/08/02/data-structure-queue.html
+https://docs.oracle.com/javase/7/docs/api/index.html
