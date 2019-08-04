@@ -57,7 +57,14 @@ public class linkedList<E> implements Cloneable{
 
     //  Inserts the specified element at the beginning of this list.
     public void addFirst(E e) {
-        add(1,e);
+        if(head==null) return;
+
+        Node second_node = head;
+        Node new_node = new Node(e);
+
+        head=new_node;
+        new_node.next=second_node;
+        size++;
         return;
     }
 

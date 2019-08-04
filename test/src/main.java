@@ -1,4 +1,5 @@
 import arrList.arrList;
+import deque.deque;
 import linkedList.linkedList;
 import queue.queue;
 import stack.Stack;
@@ -30,6 +31,11 @@ public class main{
 
         testQueue();
         System.out.println();
+
+        testDeque();
+        System.out.println();
+
+
 
 
 
@@ -242,12 +248,20 @@ public class main{
         }
         System.out.println();
 
-        System.out.println("remove");
-        tmp.remove();
-        System.out.println(tmp);
+//
+//        System.out.println("remove");
+//        tmp.remove();
+//        System.out.println(tmp);
+
 
         linkedList<Integer>asd=new linkedList<Integer>();
         System.out.println(asd);
+
+        System.out.println("linkelist.addfirst()");
+        tmp.addFirst(333);
+        System.out.println(tmp);
+
+
     }
 
     public static void testQueue(){
@@ -277,6 +291,51 @@ public class main{
         System.out.println(tmp);
     }
 
+    public static void testDeque(){
+        deque<Integer> tmp=new deque<Integer>();
+        System.out.println("deque.add(): 1~4");
+        tmp.add(1);
+        tmp.add(2);
+        tmp.add(3);
+        tmp.add(4);
+        System.out.println(tmp);
+
+        System.out.println("deque.push(): 11~44");
+        tmp.push(11);
+        tmp.push(22);
+        tmp.push(33);
+        tmp.push(44);
+        System.out.println(tmp);
+
+        System.out.println("deque.contain(33): "+tmp.contains(33));
+        System.out.println("deque.element(): "+tmp.element());
+        System.out.println("deque.peek(): "+tmp.peek());
+        System.out.println("deque.peekFirst(): "+tmp.peekFirst());
+        System.out.println("deque.peekLast(): "+tmp.peekLast());
+        System.out.println("deque.pop(): "+tmp.pop());
+        System.out.println(tmp);
+        System.out.println("deque.size(): "+tmp.size());
+
+
+        System.out.println("deque.itertator(): ");
+        Iterator<Integer>iter=tmp.iterator();
+        while (iter.hasNext()){
+            System.out.print(iter.next()+" ");
+        }
+        System.out.println();
+
+        System.out.println("deque.descendingIterator()");
+        Iterator<Integer>deiter=tmp.descendingIterator();
+        while (deiter.hasNext()){
+            System.out.print(deiter.next()+" ");
+        }
+        System.out.println();
+
+
+        System.out.println("deque.remove(): "+tmp.remove());
+        System.out.println(tmp);
+    }
 }
+
 
 

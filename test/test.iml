@@ -11,5 +11,6 @@
     <orderEntry type="module" module-name="arrList" />
     <orderEntry type="module" module-name="linkedList" />
     <orderEntry type="module" module-name="queue" />
+    <orderEntry type="module" module-name="deque" />
   </component>
 </module>
