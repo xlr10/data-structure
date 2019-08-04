@@ -14,7 +14,7 @@
        isEmpty(): 큐가 비어 있을 때에 true를 반환한다.
 
 
-3. java 라이브러리 Linked List 관련 메서드
+3. java 라이브러리 Queue 관련 메서드
 
     boolean 	add(E e)    Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.
     E        	element()   Retrieves, but does not remove, the head of this queue.

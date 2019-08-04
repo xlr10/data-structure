@@ -1,0 +1,20 @@
+
+
+1. 큐(Queue)의 개념
+    - 삽입과 삭제가 양쪽 끝에서 모두 발생할 수 있는 자료구조 Stack과 Queue의 장점만 따서 구성되어 있다.
+      입력제한 데크(입력은 한 쪽, 출력은 양쪽) , 출력제한 데크(입력은 양쪽, 출력은 한 쪽)가 있다.
+
+2. java 라이브러리 Linked List 관련 메서드
+
+    boolean 	add(E e)    Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.
+    E        	element()   Retrieves, but does not remove, the head of this queue.
+    boolean 	offer(E e)  Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions.
+    E        	peek()      Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+    E        	poll()      Retrieves and removes the head of this queue, or returns null if this queue is empty.
+    E        	remove()    Retrieves and removes the head of this queue.
+
+
+
+5. References
+https://shiny-corolla.tistory.com/62 [개발!!]
+https://docs.oracle.com/javase/7/docs/api/index.html

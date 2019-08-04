@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63ce484-1b96-4060-8b31-bf8e3342dbad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/queue/queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/queue.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/queue/queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque/deque.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque/deque.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque/src/deque/deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/queue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,17 +24,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="21" selection-start-line="21" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="60">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testStack#0;class#main#0" />
@@ -56,33 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/src/queue/queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-              <folding>
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1315#1316#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
-              <caret line="202" column="27" lean-forward="true" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
+              <caret line="202" column="27" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3308#3309#0" expanded="true" />
@@ -99,10 +73,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deque/src/deque/deque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/queue/queue.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deque/deque.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -153,10 +145,11 @@
         <option value="$PROJECT_DIR$/arrList/src/arrList/arrList.java" />
         <option value="$PROJECT_DIR$/linkedList/src/linkedList/Node.java" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/queue/queue.txt" />
         <option value="$PROJECT_DIR$/queue/src/queue/queue.java" />
         <option value="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" />
         <option value="$PROJECT_DIR$/test/src/main.java" />
+        <option value="$PROJECT_DIR$/deque/deque.txt" />
+        <option value="$PROJECT_DIR$/queue/queue.txt" />
       </list>
     </option>
   </component>
@@ -187,6 +180,11 @@
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="deque" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="linkedList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -206,6 +204,12 @@
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,20 +323,27 @@
       <option name="project" value="LOCAL" />
       <updated>1564829916045</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="stack #9 commit (implement queue)">
+      <created>1564901664838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564901664838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="95" width="1728" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20521945" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20521945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info active="true" anchor="bottom" x="1324" y="378" width="572" height="688" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" x="1324" y="378" width="572" height="688" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,7 +370,8 @@
     <MESSAGE value="stack #6 commit (implement, Array List)" />
     <MESSAGE value="stack #7 commit (retacoring#2, Stack- use arrList)" />
     <MESSAGE value="stack #8 commit (implement Linked List)" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack #8 commit (implement Linked List)" />
+    <MESSAGE value="stack #9 commit (implement queue)" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack #9 commit (implement queue)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataStructure.iml">
@@ -463,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkedList/linkedList.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -477,17 +482,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue/queue.txt">
+    <entry file="file://$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="327">
+          <caret line="202" column="27" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3308#3309#0" expanded="true" />
+            <element signature="e#3340#3341#0" expanded="true" />
+            <element signature="e#3413#3414#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#5159#5160#0" expanded="true" />
+            <element signature="e#5188#5189#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5609#5610#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/queue/src/queue/queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="434">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#418#419#0" expanded="true" />
@@ -505,28 +521,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="202" column="27" lean-forward="true" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3340#3341#0" expanded="true" />
-            <element signature="e#3413#3414#0" expanded="true" />
-            <element signature="e#3446#3447#0" expanded="true" />
-            <element signature="e#5159#5160#0" expanded="true" />
-            <element signature="e#5188#5189#0" expanded="true" />
-            <element signature="e#5576#5577#0" expanded="true" />
-            <element signature="e#5609#5610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="21" selection-start-line="21" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testStack#0;class#main#0" />
@@ -540,6 +538,34 @@
             <element signature="method#testQueue#0;class#main#0" />
             <element signature="e#7483#7492#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deque/deque.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deque/src/deque/deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -595,11 +621,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test</last-edited>
+          <last-edited>deque</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
