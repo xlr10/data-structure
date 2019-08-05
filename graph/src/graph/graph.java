@@ -13,7 +13,7 @@ public class graph {
     //2. 인접행렬로 구현
 
     private int n_node = 0, n_edge = 0;
-    private Vector<List> adj_arr;    //인접리스트
+    private Vector<List> adj_arr;       //인접리스트
     private int adj_metrix[][];        //인접행렬
     private String path = "D:\\Programming\\DataStructure\\graph\\";
     private BufferedReader bufferedReader;

@@ -4,6 +4,7 @@ import graph.graph;
 import linkedList.linkedList;
 import queue.queue;
 import stack.Stack;
+import tree.tree;
 
 import java.util.Iterator;
 
@@ -21,25 +22,26 @@ public class main{
     public static void main(String[] args) {
         System.out.println("Test Class..");
 
-//        testStack();
-//        System.out.println();
-//
-//        testArrayList();
-//        System.out.println();
-//
-//        testLinkedList();
-//        System.out.println();
-//
-//        testQueue();
-//        System.out.println();
-//
-//        testDeque();
-//        System.out.println();
+        testStack();
+        System.out.println();
+
+        testArrayList();
+        System.out.println();
+
+        testLinkedList();
+        System.out.println();
+
+        testQueue();
+        System.out.println();
+
+        testDeque();
+        System.out.println();
 
         testGraph();
         System.out.println();
 
-
+        testTree();
+        System.out.println();
 
 
 
@@ -345,6 +347,12 @@ public class main{
     public static void testGraph(){
         graph tmp=new graph("input1.txt");
         tmp=new graph("input2.txt");
+    }
+
+    public static void testTree(){
+        tree tmp=new tree();
+        tmp.make_tree();
+
     }
 }
 

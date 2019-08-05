@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63ce484-1b96-4060-8b31-bf8e3342dbad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graph/graph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/input1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/input2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/src/graph/graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/tree/tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/tree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/src/tree/node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/graph/graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/src/graph/graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/tree/tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/tree/tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tree/tree.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="46">
+              <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testStack#0;class#main#0" />
@@ -59,39 +51,68 @@
                 <element signature="method#testDeque#0;class#main#0" />
                 <element signature="e#8595#8604#0" expanded="true" />
                 <element signature="method#testGraph#0;class#main#0" />
+                <element signature="method#testTree#0;class#main#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/graph.txt">
+        <entry file="file://$PROJECT_DIR$/tree/src/tree/tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+            <state relative-caret-position="502">
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#input_tree#0;class#tree#0" />
+                <element signature="e#1127#1136#0" expanded="true" />
+                <element signature="method#make_tree#1;class#tree#0" />
+                <element signature="method#print_tree#0;class#tree#0" />
+                <element signature="method#inOrderTraversal#0;class#tree#0" />
+                <element signature="method#preOrderTraversal#0;class#tree#0" />
+                <element signature="method#postOrderTraversal#0;class#tree#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph/src/graph/graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="443">
+              <caret line="158" column="42" lean-forward="true" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#inputAdjArr#0;class#graph#0" />
                 <element signature="method#print_adjarr#0;class#graph#0" />
                 <element signature="method#ArrtoMetrix#0;class#graph#0" />
                 <element signature="method#print_adjmetrix#0;class#graph#0" />
-                <element signature="method#dfs_adjMextrix#0;class#graph#0" />
-                <element signature="method#dfs_adjMextrix#0;class#graph#0" />
-                <element signature="method#dfs_adjArr#0;class#graph#0" />
                 <element signature="method#dfs_adjArr#0;class#graph#0" />
                 <element signature="method#setVisit#0;class#graph#0" />
                 <element signature="method#bfs_adjMetrix#0;class#graph#0" />
                 <element signature="method#bfs_adjArr#0;class#graph#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/src/tree/node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/input1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -150,12 +171,16 @@
         <option value="$PROJECT_DIR$/deque/deque.txt" />
         <option value="$PROJECT_DIR$/deque/src/deque/deque.java" />
         <option value="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" />
-        <option value="$PROJECT_DIR$/tree/tree.txt" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/graph/input.txt" />
         <option value="$PROJECT_DIR$/graph/graph.txt" />
-        <option value="$PROJECT_DIR$/test/src/main.java" />
+        <option value="$PROJECT_DIR$/tree/tree.txt" />
+        <option value="$PROJECT_DIR$/tree/src/input1.txt" />
         <option value="$PROJECT_DIR$/graph/src/graph/graph.java" />
+        <option value="$PROJECT_DIR$/tree/input1.txt" />
+        <option value="$PROJECT_DIR$/tree/src/tree/node.java" />
+        <option value="$PROJECT_DIR$/tree/src/tree/tree.java" />
+        <option value="$PROJECT_DIR$/test/src/main.java" />
       </list>
     </option>
   </component>
@@ -186,20 +211,31 @@
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564905159100</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="stack #12 commit (implement graph)">
+      <created>1564997415067</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564997415067</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -347,7 +390,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info active="true" anchor="bottom" x="1349" y="114" width="544" height="925" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" x="1392" y="114" width="501" height="925" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,6 +407,30 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27158555" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
+      <window_info anchor="bottom" x="1349" y="114" width="544" height="925" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="bottom" id="CheckStyle" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299712" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3299712" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32853025" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stack #1 commit (readme.txt)" />
@@ -377,7 +444,8 @@
     <MESSAGE value="stack #9 commit (implement queue)" />
     <MESSAGE value="stack #10 commit (implement queue)" />
     <MESSAGE value="stack #11 commit (implement deque)" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack #11 commit (implement deque)" />
+    <MESSAGE value="stack #12 commit (implement graph)" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack #12 commit (implement graph)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataStructure.iml">
@@ -531,20 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/tree.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-end-line="42" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/tree/tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrList/arrList.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -591,13 +645,6 @@
     <entry file="file://$PROJECT_DIR$/graph/input2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/graph.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/queue/src/queue/queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -605,10 +652,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graph.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/tree.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/input1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/input1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/tree/node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/src/graph/graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="158" column="42" lean-forward="true" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#print_adjarr#0;class#graph#0" />
+            <element signature="method#ArrtoMetrix#0;class#graph#0" />
+            <element signature="method#print_adjmetrix#0;class#graph#0" />
+            <element signature="method#dfs_adjArr#0;class#graph#0" />
+            <element signature="method#setVisit#0;class#graph#0" />
+            <element signature="method#bfs_adjMetrix#0;class#graph#0" />
+            <element signature="method#bfs_adjArr#0;class#graph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/tree/tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#input_tree#0;class#tree#0" />
+            <element signature="e#1127#1136#0" expanded="true" />
+            <element signature="method#make_tree#1;class#tree#0" />
+            <element signature="method#print_tree#0;class#tree#0" />
+            <element signature="method#inOrderTraversal#0;class#tree#0" />
+            <element signature="method#preOrderTraversal#0;class#tree#0" />
+            <element signature="method#postOrderTraversal#0;class#tree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="46">
+          <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testStack#0;class#main#0" />
@@ -624,27 +744,7 @@
             <element signature="method#testDeque#0;class#main#0" />
             <element signature="e#8595#8604#0" expanded="true" />
             <element signature="method#testGraph#0;class#main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph/src/graph/graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#inputAdjArr#0;class#graph#0" />
-            <element signature="method#print_adjarr#0;class#graph#0" />
-            <element signature="method#ArrtoMetrix#0;class#graph#0" />
-            <element signature="method#print_adjmetrix#0;class#graph#0" />
-            <element signature="method#dfs_adjMextrix#0;class#graph#0" />
-            <element signature="method#dfs_adjMextrix#0;class#graph#0" />
-            <element signature="method#dfs_adjArr#0;class#graph#0" />
-            <element signature="method#dfs_adjArr#0;class#graph#0" />
-            <element signature="method#setVisit#0;class#graph#0" />
-            <element signature="method#bfs_adjMetrix#0;class#graph#0" />
-            <element signature="method#bfs_adjArr#0;class#graph#0" />
+            <element signature="method#testTree#0;class#main#0" />
           </folding>
         </state>
       </provider>
