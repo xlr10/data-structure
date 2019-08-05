@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63ce484-1b96-4060-8b31-bf8e3342dbad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/graph/graph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/graph.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/input1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/input2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/src/graph/graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/src/tree/tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/tree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/tree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deque/deque.iml" beforeDir="false" afterPath="$PROJECT_DIR$/deque/deque.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deque/deque.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deque/deque.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deque/src/deque/deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/deque/src/deque/deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
     </list>
@@ -20,48 +28,22 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="4">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="272">
-                    <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#3382#3383#0" expanded="true" />
-                      <element signature="e#3414#3415#0" expanded="true" />
-                      <element signature="e#5939#5940#0" expanded="true" />
-                      <element signature="e#5961#5962#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="519">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testStack#0;class#main#0" />
@@ -76,54 +58,40 @@
                 <element signature="e#7483#7492#0" expanded="true" />
                 <element signature="method#testDeque#0;class#main#0" />
                 <element signature="e#8595#8604#0" expanded="true" />
+                <element signature="method#testGraph#0;class#main#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deque/src/deque/deque.java">
+        <entry file="file://$PROJECT_DIR$/graph/graph.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="560">
+              <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph/src/graph/graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#2080#2081#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#2089#2090#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2840#2841#0" expanded="true" />
-                <element signature="e#2860#2861#0" expanded="true" />
-                <element signature="e#3027#3028#0" expanded="true" />
-                <element signature="e#3067#3068#0" expanded="true" />
-                <element signature="e#3388#3389#0" expanded="true" />
-                <element signature="e#3414#3415#0" expanded="true" />
+                <element signature="method#inputAdjArr#0;class#graph#0" />
+                <element signature="method#print_adjarr#0;class#graph#0" />
+                <element signature="method#ArrtoMetrix#0;class#graph#0" />
+                <element signature="method#print_adjmetrix#0;class#graph#0" />
+                <element signature="method#dfs_adjMextrix#0;class#graph#0" />
+                <element signature="method#dfs_adjMextrix#0;class#graph#0" />
+                <element signature="method#dfs_adjArr#0;class#graph#0" />
+                <element signature="method#dfs_adjArr#0;class#graph#0" />
+                <element signature="method#setVisit#0;class#graph#0" />
+                <element signature="method#bfs_adjMetrix#0;class#graph#0" />
+                <element signature="method#bfs_adjArr#0;class#graph#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deque/deque.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="27" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -148,6 +116,7 @@
       <find>peek</find>
       <find>getfi</find>
       <find>addfirst</find>
+      <find>push</find>
     </findStrings>
     <replaceStrings>
       <replace>tmp_string</replace>
@@ -176,20 +145,24 @@
         <option value="$PROJECT_DIR$/linkedList/linkedList.txt" />
         <option value="$PROJECT_DIR$/arrList/src/arrList/arrList.java" />
         <option value="$PROJECT_DIR$/linkedList/src/linkedList/Node.java" />
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/queue/src/queue/queue.java" />
         <option value="$PROJECT_DIR$/queue/queue.txt" />
         <option value="$PROJECT_DIR$/deque/deque.txt" />
         <option value="$PROJECT_DIR$/deque/src/deque/deque.java" />
         <option value="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" />
+        <option value="$PROJECT_DIR$/tree/tree.txt" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/graph/input.txt" />
+        <option value="$PROJECT_DIR$/graph/graph.txt" />
         <option value="$PROJECT_DIR$/test/src/main.java" />
+        <option value="$PROJECT_DIR$/graph/src/graph/graph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="44" />
     <option name="y" value="95" />
-    <option name="width" value="1290" />
+    <option name="width" value="1316" />
     <option name="height" value="846" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -213,29 +186,6 @@
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="deque" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,6 +193,13 @@
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,21 +327,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564902707133</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="stack #11 commit (implement deque)">
+      <created>1564905159100</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564905159100</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="95" width="1290" height="846" extended-state="0" />
+    <frame x="44" y="95" width="1316" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27724358" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27158555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info active="true" anchor="bottom" x="1324" y="378" width="572" height="688" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997114" />
+      <window_info active="true" anchor="bottom" x="1349" y="114" width="544" height="925" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -412,7 +376,8 @@
     <MESSAGE value="stack #8 commit (implement Linked List)" />
     <MESSAGE value="stack #9 commit (implement queue)" />
     <MESSAGE value="stack #10 commit (implement queue)" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack #10 commit (implement queue)" />
+    <MESSAGE value="stack #11 commit (implement deque)" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack #11 commit (implement deque)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataStructure.iml">
@@ -450,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrList/arrList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -477,19 +435,6 @@
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#1511#1512#0" expanded="true" />
             <element signature="e#1551#1552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrList/src/arrList/arrList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="189" column="80" selection-start-line="189" selection-start-column="80" selection-end-line="189" selection-end-column="80" />
-          <folding>
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -523,52 +468,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue/src/queue/queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queue/queue.txt">
+    <entry file="file://$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3382#3383#0" expanded="true" />
+            <element signature="e#3414#3415#0" expanded="true" />
+            <element signature="e#5939#5940#0" expanded="true" />
+            <element signature="e#5961#5962#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deque/deque.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="27" selection-end-column="85" />
+        <state relative-caret-position="68">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deque/src/deque/deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="1258">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#478#479#0" expanded="true" />
@@ -589,7 +513,6 @@
             <element signature="e#1671#1672#0" expanded="true" />
             <element signature="e#2080#2081#0" expanded="true" />
             <element signature="e#2115#2116#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
             <element signature="e#2116#2117#0" expanded="true" />
             <element signature="e#2840#2841#0" expanded="true" />
             <element signature="e#2860#2861#0" expanded="true" />
@@ -601,24 +524,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java">
+    <entry file="file://$PROJECT_DIR$/queue/queue.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/tree.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/tree/tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrList/arrList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrList/src/arrList/arrList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3382#3383#0" expanded="true" />
-            <element signature="e#3414#3415#0" expanded="true" />
-            <element signature="e#5939#5940#0" expanded="true" />
-            <element signature="e#5961#5962#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/input.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/input2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/input1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/input2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graph.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/src/queue/queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="519">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testStack#0;class#main#0" />
@@ -633,6 +623,28 @@
             <element signature="e#7483#7492#0" expanded="true" />
             <element signature="method#testDeque#0;class#main#0" />
             <element signature="e#8595#8604#0" expanded="true" />
+            <element signature="method#testGraph#0;class#main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/src/graph/graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#inputAdjArr#0;class#graph#0" />
+            <element signature="method#print_adjarr#0;class#graph#0" />
+            <element signature="method#ArrtoMetrix#0;class#graph#0" />
+            <element signature="method#print_adjmetrix#0;class#graph#0" />
+            <element signature="method#dfs_adjMextrix#0;class#graph#0" />
+            <element signature="method#dfs_adjMextrix#0;class#graph#0" />
+            <element signature="method#dfs_adjArr#0;class#graph#0" />
+            <element signature="method#dfs_adjArr#0;class#graph#0" />
+            <element signature="method#setVisit#0;class#graph#0" />
+            <element signature="method#bfs_adjMetrix#0;class#graph#0" />
+            <element signature="method#bfs_adjArr#0;class#graph#0" />
           </folding>
         </state>
       </provider>
@@ -689,7 +701,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test</last-edited>
+          <last-edited>graph</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
