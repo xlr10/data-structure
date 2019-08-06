@@ -9,7 +9,6 @@
 6. Graph
 7. Heap
 8. Tree (==DAG. Directed Acyclic Graph)
-9. ADT???
 
 목표
 1. 메서드는 자바 라이브러리 기준으로 생성

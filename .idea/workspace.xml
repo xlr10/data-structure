@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63ce484-1b96-4060-8b31-bf8e3342dbad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tree/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/tree/node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph/src/graph/graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/src/graph/graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/tree/tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/tree/tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tree/tree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,34 +17,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="29" />
+            <state relative-caret-position="403">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testStack#0;class#main#0" />
                 <element signature="method#testArrayList#0;class#main#0" />
-                <element signature="e#2568#2577#0" expanded="true" />
-                <element signature="e#3527#3535#0" expanded="true" />
-                <element signature="e#3381#3415#0" />
                 <element signature="method#testLinkedList#0;class#main#0" />
-                <element signature="e#4610#4619#0" expanded="true" />
-                <element signature="e#7349#7358#0" expanded="true" />
                 <element signature="method#testQueue#0;class#main#0" />
-                <element signature="e#7483#7492#0" expanded="true" />
                 <element signature="method#testDeque#0;class#main#0" />
-                <element signature="e#8595#8604#0" expanded="true" />
                 <element signature="method#testGraph#0;class#main#0" />
                 <element signature="method#testTree#0;class#main#0" />
               </folding>
@@ -60,12 +48,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree/src/tree/tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
+            <state relative-caret-position="918">
               <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#input_tree#0;class#tree#0" />
-                <element signature="e#1127#1136#0" expanded="true" />
                 <element signature="method#make_tree#1;class#tree#0" />
                 <element signature="method#print_tree#0;class#tree#0" />
                 <element signature="method#inOrderTraversal#0;class#tree#0" />
@@ -79,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph/src/graph/graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="158" column="42" lean-forward="true" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+            <state relative-caret-position="1768">
+              <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#print_adjarr#0;class#graph#0" />
@@ -98,11 +85,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree/src/tree/node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="204">
               <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding>
                 <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +158,6 @@
         <option value="$PROJECT_DIR$/deque/deque.txt" />
         <option value="$PROJECT_DIR$/deque/src/deque/deque.java" />
         <option value="$PROJECT_DIR$/linkedList/src/linkedList/linkedList.java" />
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/graph/input.txt" />
         <option value="$PROJECT_DIR$/graph/graph.txt" />
         <option value="$PROJECT_DIR$/tree/tree.txt" />
@@ -181,12 +167,13 @@
         <option value="$PROJECT_DIR$/tree/src/tree/node.java" />
         <option value="$PROJECT_DIR$/tree/src/tree/tree.java" />
         <option value="$PROJECT_DIR$/test/src/main.java" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="95" />
+    <option name="x" value="282" />
+    <option name="y" value="188" />
     <option name="width" value="1316" />
     <option name="height" value="846" />
   </component>
@@ -199,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,39 +193,12 @@
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,20 +335,27 @@
       <option name="project" value="LOCAL" />
       <updated>1564997415067</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="stack #13 commit (implement tree)">
+      <created>1565012550255</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565012550255</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="95" width="1316" height="846" extended-state="0" />
+    <frame x="282" y="188" width="1316" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27158555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27158555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info active="true" anchor="bottom" x="1392" y="114" width="501" height="925" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" x="1420" y="182" width="501" height="925" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +410,8 @@
     <MESSAGE value="stack #10 commit (implement queue)" />
     <MESSAGE value="stack #11 commit (implement deque)" />
     <MESSAGE value="stack #12 commit (implement graph)" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack #12 commit (implement graph)" />
+    <MESSAGE value="stack #13 commit (implement tree)" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack #13 commit (implement tree)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataStructure.iml">
@@ -606,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrList/src/arrList/arrList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -626,16 +585,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph/input.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/input.txt" />
+    <entry file="file://$PROJECT_DIR$/graph/input.jpg" />
     <entry file="file://$PROJECT_DIR$/graph/input2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -666,35 +617,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/input1.txt">
+    <entry file="file://$PROJECT_DIR$/tree/src/input1.txt" />
+    <entry file="file://$PROJECT_DIR$/tree/src/tree/tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/input1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/tree/node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="918">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="23" />
           <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#input_tree#0;class#tree#0" />
+            <element signature="method#make_tree#1;class#tree#0" />
+            <element signature="method#print_tree#0;class#tree#0" />
+            <element signature="method#inOrderTraversal#0;class#tree#0" />
+            <element signature="method#preOrderTraversal#0;class#tree#0" />
+            <element signature="method#postOrderTraversal#0;class#tree#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph/src/graph/graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="158" column="42" lean-forward="true" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+        <state relative-caret-position="1768">
+          <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#print_adjarr#0;class#graph#0" />
@@ -708,44 +651,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/tree/tree.java">
+    <entry file="file://$PROJECT_DIR$/tree/src/tree/node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#input_tree#0;class#tree#0" />
-            <element signature="e#1127#1136#0" expanded="true" />
-            <element signature="method#make_tree#1;class#tree#0" />
-            <element signature="method#print_tree#0;class#tree#0" />
-            <element signature="method#inOrderTraversal#0;class#tree#0" />
-            <element signature="method#preOrderTraversal#0;class#tree#0" />
-            <element signature="method#postOrderTraversal#0;class#tree#0" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/input1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="29" />
+        <state relative-caret-position="403">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testStack#0;class#main#0" />
             <element signature="method#testArrayList#0;class#main#0" />
-            <element signature="e#2568#2577#0" expanded="true" />
-            <element signature="e#3527#3535#0" expanded="true" />
-            <element signature="e#3381#3415#0" />
             <element signature="method#testLinkedList#0;class#main#0" />
-            <element signature="e#4610#4619#0" expanded="true" />
-            <element signature="e#7349#7358#0" expanded="true" />
             <element signature="method#testQueue#0;class#main#0" />
-            <element signature="e#7483#7492#0" expanded="true" />
             <element signature="method#testDeque#0;class#main#0" />
-            <element signature="e#8595#8604#0" expanded="true" />
             <element signature="method#testGraph#0;class#main#0" />
             <element signature="method#testTree#0;class#main#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
