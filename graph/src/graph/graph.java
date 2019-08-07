@@ -15,7 +15,8 @@ public class graph {
     private int n_node = 0, n_edge = 0;
     private Vector<List> adj_arr;       //인접리스트
     private int adj_metrix[][];        //인접행렬
-    private String path = "D:\\Programming\\DataStructure\\graph\\";
+    File file_tmp= new File("");
+    private String path = file_tmp.getAbsolutePath()+"\\graph\\";
     private BufferedReader bufferedReader;
 
     static boolean[] visit;
